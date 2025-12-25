@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Manrope:wght@400;500;600&display=swap');
+
+.privacy-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at top right, #e8f0ff 0%, #f7f3ff 35%, #fef6ea 70%, #f8fbff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.privacy-page::before,
+.privacy-page::after {
+  content: '';
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(0);
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.privacy-page::before {
+  background: linear-gradient(135deg, #5f9df7, #ffb86b);
+  top: -140px;
+  right: -120px;
+}
+
+.privacy-page::after {
+  background: linear-gradient(135deg, #6b5bff, #ff7f50);
+  bottom: -180px;
+  left: -140px;
+}
+
+.privacy-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.privacy-card {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 28px;
+  padding: 2.8rem;
+  box-shadow: 0 30px 60px rgba(18, 38, 78, 0.18);
+  border: 1px solid rgba(88, 134, 232, 0.2);
+  backdrop-filter: blur(14px);
+}
+
+.privacy-hero {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.privacy-eyebrow {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  color: #42526e;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-hero h1 {
+  margin: 0.6rem 0 0.75rem;
+  font-size: 3rem;
+  color: #101828;
+  font-family: 'Fraunces', serif;
+  letter-spacing: -0.02em;
+}
+
+.privacy-lede {
+  font-size: 1.15rem;
+  color: #2f3442;
+  max-width: 760px;
+  margin-bottom: 0.75rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-note {
+  font-size: 0.98rem;
+  color: #4b5563;
+  margin: 0 0 1rem;
+  font-family: 'Manrope', sans-serif;
+  max-width: 760px;
+}
+
+.privacy-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.privacy-meta {
+  font-size: 0.95rem;
+  color: #4b5563;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-chip {
+  background: #101828;
+  color: #ffffff;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-highlight {
+  background: linear-gradient(135deg, #101828, #1f2937);
+  color: #f9fafb;
+  border-radius: 20px;
+  padding: 1.6rem 1.8rem;
+  margin: 2rem 0 2.5rem;
+  box-shadow: 0 18px 32px rgba(16, 24, 40, 0.18);
+}
+
+.privacy-highlight h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+  font-family: 'Fraunces', serif;
+}
+
+.privacy-highlight p {
+  margin: 0;
+  color: #e5e7eb;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.6rem;
+  margin: 2.5rem 0;
+}
+
+.privacy-panel {
+  background: #f8f9ff;
+  border-radius: 18px;
+  padding: 1.6rem;
+  border: 1px solid rgba(94, 129, 244, 0.2);
+  box-shadow: 0 12px 24px rgba(74, 86, 128, 0.08);
+}
+
+.privacy-panel h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #1f2a44;
+  font-family: 'Fraunces', serif;
+}
+
+.privacy-panel ul {
+  margin: 0.9rem 0 0;
+  padding-left: 1.2rem;
+  color: #2f3442;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-panel li {
+  margin-bottom: 0.6rem;
+}
+
+.privacy-section {
+  margin-top: 2.2rem;
+}
+
+.privacy-section h2 {
+  margin-bottom: 0.6rem;
+  font-size: 1.5rem;
+  color: #1f2a44;
+  font-family: 'Fraunces', serif;
+}
+
+.privacy-section p,
+.privacy-section ul {
+  color: #2f3442;
+  font-family: 'Manrope', sans-serif;
+}
+
+.privacy-section ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0 0;
+}
+
+.privacy-section li {
+  margin-bottom: 0.55rem;
+}
+
+.privacy-section a {
+  color: #1d4ed8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.privacy-section a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .privacy-content {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .privacy-card {
+    padding: 1.9rem;
+  }
+
+  .privacy-hero h1 {
+    font-size: 2.2rem;
+  }
+}

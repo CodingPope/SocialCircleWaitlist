@@ -28,15 +28,14 @@ const businessTiers = [
     id: 'tier-1',
     type: 'tier',
     title: 'TIER 1',
-    subtitle: 'Base Free',
+    subtitle: 'Base Plan',
     features: [
-      '2 posts/month',
-      '1–2 interests',
+      '2 posts/week',
       'RSVP counts only',
       'Basic profile features',
       'Community access',
     ],
-    price: 'Free',
+    price: '$15/mo',
     highlight: false,
   },
   {
@@ -45,8 +44,7 @@ const businessTiers = [
     title: 'TIER 2',
     subtitle: 'Growth Plan',
     features: [
-      '5 posts/month',
-      '1–2 categories',
+      '5 posts/week',
       'Priority feed/search',
       'Basic analytics',
       '7-day ads',
