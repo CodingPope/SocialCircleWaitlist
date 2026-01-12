@@ -176,7 +176,7 @@ export default function Privacy() {
                 discovery and delete or anonymize personal data where possible.
                 Some records may be retained temporarily for safety, legal, or
                 operational purposes. You can request full deletion at
-                support@socialcircle.app.
+                support@findyourcircle.app.
               </li>
             </ul>
           </section>
@@ -193,8 +193,8 @@ export default function Privacy() {
             <h2>Contact</h2>
             <p>
               Questions or requests? Email us at{' '}
-              <a href='mailto:support@socialcircle.app'>
-                support@socialcircle.app
+              <a href='mailto:support@findyourcircle.app'>
+                support@findyourcircle.app
               </a>
               .
             </p>
