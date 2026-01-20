@@ -26,6 +26,13 @@ export default function Terms() {
               Terms, you may not use the App.
             </p>
             <p>
+              <strong>Apple Sign-In:</strong> If you use Sign in with Apple to
+              create your account, you agree to Apple's terms and conditions. We
+              receive limited information from Apple (name, email) as permitted
+              by your Apple ID settings. You can manage your Sign in with Apple
+              preferences in your Apple ID settings.
+            </p>
+            <p>
               <strong>Age Requirement:</strong> You must be at least{' '}
               <strong>21 years old</strong> to use Social Circle. By creating an
               account, you certify that you meet this age requirement. We may
@@ -345,7 +352,7 @@ export default function Terms() {
             </ul>
             <p>
               <strong>You may appeal account termination</strong> by emailing
-              appeals@socialcircleapp.com within 30 days with your user ID and
+              appeals@findyourcircle.app within 30 days with your user ID and
               explanation.
             </p>
           </section>
@@ -528,9 +535,74 @@ export default function Terms() {
             </ul>
             <p>
               <strong>To exercise these rights:</strong> Email
-              privacy@socialcircleapp.com with your user ID and request. We will
+              privacy@findyourcircle.app with your user ID and request. We will
               respond within 30 days.
             </p>
+            {/* FEATURE FLAG: Uncomment when third-party integrations are finalized */}
+            {/* <h3>7.5 Third-Party Services</h3>
+            <p>
+              Social Circle uses the following third-party services to provide
+              App functionality:
+            </p>
+            <ul>
+              <li>
+                <strong>Apple Services:</strong> Sign in with Apple for
+                authentication, Apple Push Notification Service (APNs) for
+                notifications. Subject to{' '}
+                <a
+                  href='https://www.apple.com/legal/internet-services/terms/site.html'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Apple Terms of Service
+                </a>
+                .
+              </li>
+              <li>
+                <strong>Google Services:</strong> Google Sign-In (optional),
+                Google Maps Platform for geocoding and address lookup, Firebase
+                (Firestore, Authentication, Cloud Functions, Storage, Analytics).
+                Subject to{' '}
+                <a
+                  href='https://policies.google.com/terms'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Google Terms of Service
+                </a>
+                .
+              </li>
+              <li>
+                <strong>Expo:</strong> Expo Push Notification Service for
+                cross-platform notifications. Subject to{' '}
+                <a
+                  href='https://expo.dev/terms'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Expo Terms of Service
+                </a>
+                .
+              </li>
+              <li>
+                <strong>Analytics:</strong> Mixpanel or Firebase Analytics (if
+                you opt in). Subject to provider's terms.
+              </li>
+            </ul>
+            <p>
+              <strong>We are not responsible for:</strong>
+            </p>
+            <ul>
+              <li>The availability, accuracy, or reliability of third-party services</li>
+              <li>Changes to third-party terms, privacy policies, or pricing</li>
+              <li>Data handling practices of third-party providers (see their privacy policies)</li>
+              <li>Service outages or data loss caused by third-party failures</li>
+            </ul>
+            <p>
+              Your use of third-party services through the App is also governed
+              by the respective provider's terms and privacy policies. We
+              encourage you to review them.
+            </p> */}
           </section>
 
           <section className='terms-section'>
@@ -575,7 +647,8 @@ export default function Terms() {
               </li>
               <li>Not target minors or promote age-restricted products</li>
             </ul>
-            <h3>8.4 Premium Features</h3>
+            {/* FEATURE FLAG: Uncomment when in-app purchases are implemented */}
+            {/* <h3>8.4 Premium Features &amp; Subscriptions</h3>
             <p>
               Business accounts may access paid premium features including:
             </p>
@@ -585,14 +658,135 @@ export default function Terms() {
               <li>Analytics dashboards</li>
               <li>Custom branding options</li>
             </ul>
+            
+            <h3>8.5 In-App Purchases &amp; Subscriptions (Apple App Store)</h3>
             <p>
-              <strong>Payment terms:</strong>
+              <strong>Available Subscription Tiers:</strong>
             </p>
             <ul>
-              <li>Subscriptions are billed monthly or annually</li>
-              <li>No refunds for partial months or unused features</li>
-              <li>Prices subject to change with 30 days notice</li>
+              <li><strong>Tier 1 (Base):</strong> $14.99/month or $149.99/year</li>
+              <li><strong>Tier 2 (Growth):</strong> $38.99/month or $389.99/year</li>
+              <li><strong>Founding Partner:</strong> One-time payment (limited availability)</li>
             </ul>
+            <p>
+              <strong>Auto-Renewal &amp; Billing:</strong>
+            </p>
+            <ul>
+              <li>
+                Payment will be charged to your Apple ID account at confirmation
+                of purchase
+              </li>
+              <li>
+                Subscriptions automatically renew unless auto-renew is turned off
+                at least 24 hours before the end of the current period
+              </li>
+              <li>
+                Your account will be charged for renewal within 24 hours prior to
+                the end of the current period
+              </li>
+              <li>
+                Current price for renewal will be charged unless we notify you of
+                a price change in advance
+              </li>
+              <li>
+                Any unused portion of a free trial period (if offered) will be
+                forfeited when you purchase a subscription
+              </li>
+            </ul>
+            <p>
+              <strong>Managing &amp; Canceling Subscriptions:</strong>
+            </p>
+            <ul>
+              <li>
+                You can manage and cancel subscriptions in your Apple ID Account
+                Settings
+              </li>
+              <li>
+                Go to Settings → [Your Name] → Subscriptions → Social Circle
+              </li>
+              <li>
+                Cancellation takes effect at the end of the current billing cycle
+              </li>
+              <li>
+                No refunds for partial billing periods or unused features
+              </li>
+            </ul>
+            <p>
+              <strong>Refund Policy:</strong>
+            </p>
+            <ul>
+              <li>
+                All purchases are processed through Apple and subject to{' '}
+                <a
+                  href='https://www.apple.com/legal/internet-services/itunes/us/terms.html'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Apple's Paid Applications Terms of Service
+                </a>
+              </li>
+              <li>
+                Refund requests must be submitted directly to Apple via
+                reportaproblem.apple.com or the App Store
+              </li>
+              <li>
+                Social Circle does not process refunds for App Store purchases
+              </li>
+              <li>
+                Subscriptions are non-refundable except as required by law or
+                Apple's policies
+              </li>
+            </ul>
+            <p>
+              <strong>Restore Purchases:</strong>
+            </p>
+            <ul>
+              <li>
+                You can restore previously purchased subscriptions or features on
+                a new device by tapping "Restore Purchases" in the app
+              </li>
+              <li>
+                Must use the same Apple ID that made the original purchase
+              </li>
+            </ul>
+            <p>
+              <strong>Price Changes:</strong>
+            </p>
+            <ul>
+              <li>
+                We may change subscription prices with 30 days advance notice
+              </li>
+              <li>
+                Price changes apply to new subscribers and renewals after the
+                notice period
+              </li>
+              <li>
+                You will be notified via email and in-app notification before any
+                price increase
+              </li>
+            </ul>
+            <p>
+              <strong>Free Trials (if offered):</strong>
+            </p>
+            <ul>
+              <li>
+                Free trial eligibility is limited to new subscribers only
+              </li>
+              <li>
+                You will be charged the subscription price automatically at the
+                end of the trial unless you cancel before the trial ends
+              </li>
+              <li>
+                To avoid charges, cancel at least 24 hours before the trial ends
+              </li>
+            </ul>
+            <p>
+              For questions about billing or subscriptions, contact{' '}
+              <a href='mailto:support@findyourcircle.app'>
+                support@findyourcircle.app
+              </a>
+              .
+            </p> */}
           </section>
 
           <section className='terms-section'>
@@ -704,13 +898,13 @@ export default function Terms() {
             <h3>12.1 Governing Law</h3>
             <p>
               These Terms are governed by the laws of the{' '}
-              <strong>State of Delaware, United States</strong>, without regard
+              <strong>State of Colorado, United States</strong>, without regard
               to conflict of law principles.
             </p>
             <h3>12.2 Informal Resolution</h3>
             <p>
               Before filing a claim, you agree to contact us at
-              disputes@socialcircleapp.com to attempt informal resolution. We'll
+              disputes@findyourcircle.app to attempt informal resolution. We'll
               work in good faith to resolve the issue within 30 days.
             </p>
             <h3>12.3 Binding Arbitration</h3>
@@ -725,7 +919,7 @@ export default function Terms() {
             </p>
             <ul>
               <li>
-                Conducted in Delaware or your county of residence (your choice)
+                Conducted in Colorado or your county of residence (your choice)
               </li>
               <li>Single arbitrator selected per AAA rules</li>
               <li>
@@ -769,7 +963,7 @@ export default function Terms() {
             <p>
               If arbitration is inapplicable or waived, you agree to exclusive
               jurisdiction in the state and federal courts located in{' '}
-              <strong>Wilmington, Delaware</strong>.
+              <strong>Denver, Colorado</strong>.
             </p>
           </section>
 
@@ -824,8 +1018,8 @@ export default function Terms() {
               <div className='contact-row'>
                 <span className='contact-issue'>Safety Concerns</span>
                 <span className='contact-method'>
-                  <a href='mailto:safety@socialcircleapp.com'>
-                    safety@socialcircleapp.com
+                  <a href='mailto:safety@findyourcircle.app'>
+                    safety@findyourcircle.app
                   </a>
                 </span>
               </div>
@@ -840,32 +1034,32 @@ export default function Terms() {
               <div className='contact-row'>
                 <span className='contact-issue'>Privacy Requests</span>
                 <span className='contact-method'>
-                  <a href='mailto:privacy@socialcircleapp.com'>
-                    privacy@socialcircleapp.com
+                  <a href='mailto:privacy@findyourcircle.app'>
+                    privacy@findyourcircle.app
                   </a>
                 </span>
               </div>
               <div className='contact-row'>
                 <span className='contact-issue'>Account Appeals</span>
                 <span className='contact-method'>
-                  <a href='mailto:appeals@socialcircleapp.com'>
-                    appeals@socialcircleapp.com
+                  <a href='mailto:appeals@findyourcircle.app'>
+                    appeals@findyourcircle.app
                   </a>
                 </span>
               </div>
               <div className='contact-row'>
                 <span className='contact-issue'>Disputes</span>
                 <span className='contact-method'>
-                  <a href='mailto:disputes@socialcircleapp.com'>
-                    disputes@socialcircleapp.com
+                  <a href='mailto:disputes@findyourcircle.app'>
+                    disputes@findyourcircle.app
                   </a>
                 </span>
               </div>
               <div className='contact-row'>
                 <span className='contact-issue'>Business Inquiries</span>
                 <span className='contact-method'>
-                  <a href='mailto:business@socialcircleapp.com'>
-                    business@socialcircleapp.com
+                  <a href='mailto:business@findyourcircle.app'>
+                    business@findyourcircle.app
                   </a>
                 </span>
               </div>
@@ -873,6 +1067,12 @@ export default function Terms() {
             <p>
               <strong>Response Time:</strong> We aim to respond to all inquiries
               within 48 business hours.
+            </p>
+            <p>
+              <strong>Mailing Address:</strong><br />
+              Social Circle, Inc.<br />
+              2001 W Gill Pl<br />
+              Denver, CO 80223
             </p>
           </section>
 
@@ -925,7 +1125,7 @@ export default function Terms() {
             <ul>
               <li>
                 Report it immediately via the in-app report feature or email
-                safety@socialcircleapp.com
+                safety@findyourcircle.app
               </li>
               <li>Provide the username or profile link</li>
               <li>We will investigate within 24 hours</li>
@@ -933,7 +1133,7 @@ export default function Terms() {
             <p>
               <strong>Parental Notice:</strong> If you are a parent or guardian
               and believe your child under 21 has created an account, contact us
-              immediately at privacy@socialcircleapp.com with:
+              immediately at privacy@findyourcircle.app with:
             </p>
             <ul>
               <li>Your child's username or email</li>

@@ -1,8 +1,36 @@
 /* Terms.css - Styling for Terms of Service page */
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Manrope:wght@400;500;600&display=swap');
+
 .terms-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: radial-gradient(circle at top right, #e8f0ff 0%, #f7f3ff 35%, #fef6ea 70%, #f8fbff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.terms-page::before,
+.terms-page::after {
+  content: '';
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(0);
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.terms-page::before {
+  background: linear-gradient(135deg, #5f9df7, #ffb86b);
+  top: -140px;
+  right: -120px;
+}
+
+.terms-page::after {
+  background: linear-gradient(135deg, #6b5bff, #ff7f50);
+  bottom: -180px;
+  left: -140px;
 }
 
 .terms-content {
