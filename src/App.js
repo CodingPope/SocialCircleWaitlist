@@ -4,6 +4,7 @@ import './App.css';
 import WaitlistLandingPage from './pages/Waitlist';
 import Founders from './pages/Founders';
 import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<WaitlistLandingPage />} />
           <Route path='/founders' element={<Founders />} />
           <Route path='/privacy' element={<Privacy />} />
+          <Route path='/terms' element={<Terms />} />
         </Routes>
       </Router>
     </div>

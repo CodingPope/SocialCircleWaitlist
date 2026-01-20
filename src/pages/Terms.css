@@ -1,0 +1,261 @@
+/* Terms.css - Styling for Terms of Service page */
+
+.terms-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.terms-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.terms-card {
+  background: white;
+  border-radius: 16px;
+  padding: 48px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.terms-hero {
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 32px;
+  margin-bottom: 40px;
+}
+
+.terms-eyebrow {
+  display: inline-block;
+  color: #667eea;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.terms-hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+.terms-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.terms-meta {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.terms-chip {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Section Styles */
+.terms-section {
+  margin-bottom: 40px;
+}
+
+.terms-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+  padding-top: 8px;
+}
+
+.terms-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 24px 0 12px 0;
+}
+
+.terms-section p {
+  color: #444;
+  line-height: 1.7;
+  margin: 0 0 16px 0;
+  font-size: 15px;
+}
+
+.terms-section ul,
+.terms-section ol {
+  color: #444;
+  line-height: 1.7;
+  margin: 0 0 16px 0;
+  padding-left: 24px;
+}
+
+.terms-section li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.terms-section a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.terms-section a:hover {
+  text-decoration: underline;
+}
+
+.terms-section strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+/* Highlight Section */
+.terms-highlight {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-left: 4px solid #667eea;
+  padding: 24px;
+  margin: 32px 0;
+  border-radius: 8px;
+}
+
+.terms-highlight p {
+  color: #1a1a1a;
+  line-height: 1.7;
+  margin: 0 0 12px 0;
+  font-size: 15px;
+}
+
+.terms-highlight p:last-child {
+  margin-bottom: 0;
+}
+
+/* Contact Table */
+.contact-table {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.contact-issue {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-method {
+  color: #444;
+  font-size: 14px;
+}
+
+.contact-method a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.contact-method a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.terms-footer {
+  border-top: 2px solid #f0f0f0;
+  padding-top: 24px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.terms-footer p {
+  color: #666;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.terms-next-step {
+  background: #667eea10;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px !important;
+  font-size: 15px !important;
+  color: #333 !important;
+}
+
+.terms-next-step a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.terms-next-step a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .terms-card {
+    padding: 32px 24px;
+  }
+
+  .terms-hero h1 {
+    font-size: 28px;
+  }
+
+  .terms-section h2 {
+    font-size: 20px;
+  }
+
+  .terms-section h3 {
+    font-size: 16px;
+  }
+
+  .contact-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .contact-issue {
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-content {
+    padding: 20px 12px;
+  }
+
+  .terms-card {
+    padding: 24px 16px;
+    border-radius: 12px;
+  }
+
+  .terms-hero h1 {
+    font-size: 24px;
+  }
+
+  .terms-meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
