@@ -34,6 +34,14 @@ export default function Header() {
         >
           Privacy
         </Link>
+        <Link
+          to='/terms'
+          className={`nav-link ${
+            location.pathname === '/terms' ? 'active' : ''
+          }`}
+        >
+          Terms
+        </Link>
         <a href='/support.html' className={`nav-link`}>
           Support
         </a>
