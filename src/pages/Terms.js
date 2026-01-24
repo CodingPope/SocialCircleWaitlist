@@ -34,9 +34,9 @@ export default function Terms() {
             </p>
             <p>
               <strong>Age Requirement:</strong> You must be at least{' '}
-              <strong>21 years old</strong> to use Social Circle. By creating an
+              <strong>18 years old</strong> to use Social Circle. By creating an
               account, you certify that you meet this age requirement. We may
-              request age verification at any time. This 21+ requirement is our
+              request age verification at any time. This 18+ requirement is our
               business policy to maintain a mature community focused on adult
               socializing.
             </p>
@@ -79,7 +79,9 @@ export default function Terms() {
             <p>You may NOT:</p>
             <ul>
               <li>Impersonate others or create fake accounts</li>
-              <li>Use the App for commercial solicitation without authorization</li>
+              <li>
+                Use the App for commercial solicitation without authorization
+              </li>
               <li>Stalk, harass, or abuse other users</li>
               <li>
                 Create events with the intent to harm, scam, or defraud others
@@ -95,9 +97,7 @@ export default function Terms() {
                 No-show repeatedly or create events without intent to
                 attend/host
               </li>
-              <li>
-                Share or request personal contact information for minors
-              </li>
+              <li>Share or request personal contact information for minors</li>
               <li>Coordinate illegal activities through events or chats</li>
             </ul>
           </section>
@@ -131,9 +131,7 @@ export default function Terms() {
                 Image analysis to detect explicit or inappropriate visual
                 content
               </li>
-              <li>
-                Behavior pattern detection to identify spam and abuse
-              </li>
+              <li>Behavior pattern detection to identify spam and abuse</li>
             </ul>
             <p>
               <strong>User Reporting System:</strong>
@@ -178,13 +176,9 @@ export default function Terms() {
               <strong>Users must report:</strong>
             </p>
             <ul>
-              <li>
-                Inappropriate content via the in-app report feature
-              </li>
+              <li>Inappropriate content via the in-app report feature</li>
               <li>Abusive behavior or harassment immediately</li>
-              <li>
-                Events that appear fraudulent, unsafe, or illegal
-              </li>
+              <li>Events that appear fraudulent, unsafe, or illegal</li>
               <li>Suspected underage users</li>
               <li>Threats of violence or self-harm</li>
             </ul>
@@ -365,7 +359,9 @@ export default function Terms() {
               non-exclusive, royalty-free, transferable license to:
             </p>
             <ul>
-              <li>Display, reproduce, and distribute your content within the App</li>
+              <li>
+                Display, reproduce, and distribute your content within the App
+              </li>
               <li>
                 Use your content for promotional purposes (with anonymization
                 when appropriate)
@@ -448,20 +444,14 @@ export default function Terms() {
               <li>Showing nearby events on the map</li>
               <li>Helping you discover events in your area</li>
               <li>Allowing hosts to pin event locations accurately</li>
-              <li>
-                Improving event recommendations based on your preferences
-              </li>
+              <li>Improving event recommendations based on your preferences</li>
             </ul>
             <p>
-              <strong>
-                The App remains functional if location is denied.
-              </strong>{' '}
+              <strong>The App remains functional if location is denied.</strong>{' '}
               You can:
             </p>
             <ul>
-              <li>
-                Manually search for events by city, ZIP code, or area
-              </li>
+              <li>Manually search for events by city, ZIP code, or area</li>
               <li>View all public events without GPS</li>
               <li>
                 Create events by manually placing a pin on the map or entering
@@ -527,9 +517,7 @@ export default function Terms() {
             <ul>
               <li>You have the right to access your personal data</li>
               <li>You have the right to rectify inaccurate data</li>
-              <li>
-                You have the right to erasure ("right to be forgotten")
-              </li>
+              <li>You have the right to erasure ("right to be forgotten")</li>
               <li>You have the right to data portability</li>
               <li>You have the right to object to processing</li>
             </ul>
@@ -642,9 +630,7 @@ export default function Terms() {
                 truth-in-advertising laws)
               </li>
               <li>Not be deceptive or misleading</li>
-              <li>
-                Disclose material connections (e.g., paid partnerships)
-              </li>
+              <li>Disclose material connections (e.g., paid partnerships)</li>
               <li>Not target minors or promote age-restricted products</li>
             </ul>
             {/* FEATURE FLAG: Uncomment when in-app purchases are implemented */}
@@ -835,14 +821,12 @@ export default function Terms() {
               are <strong>NOT LIABLE</strong> for:
             </p>
             <ul>
-              <li>
-                Indirect, incidental, consequential, or punitive damages
-              </li>
+              <li>Indirect, incidental, consequential, or punitive damages</li>
               <li>Loss of profits, revenue, data, or goodwill</li>
+              <li>Personal injury or property damage arising from app use</li>
               <li>
-                Personal injury or property damage arising from app use
+                Damages arising from user interactions or in-person events
               </li>
-              <li>Damages arising from user interactions or in-person events</li>
               <li>Unauthorized access to your account or data</li>
               <li>Service interruptions or technical failures</li>
             </ul>
@@ -871,10 +855,7 @@ export default function Terms() {
           <section className='terms-section'>
             <h2>11. INDEMNIFICATION</h2>
             <p>
-              You agree to{' '}
-              <strong>
-                indemnify, defend, and hold harmless
-              </strong>{' '}
+              You agree to <strong>indemnify, defend, and hold harmless</strong>{' '}
               Social Circle, its officers, directors, employees, contractors,
               and affiliates from any claims, damages, losses, liabilities, and
               expenses (including attorney fees) arising from:
@@ -969,9 +950,7 @@ export default function Terms() {
 
           <section className='terms-section'>
             <h2>13. CHANGES TO TERMS</h2>
-            <p>
-              Social Circle may update these Terms at any time to reflect:
-            </p>
+            <p>Social Circle may update these Terms at any time to reflect:</p>
             <ul>
               <li>Changes in legal requirements</li>
               <li>New features or services</li>
@@ -1069,9 +1048,12 @@ export default function Terms() {
               within 48 business hours.
             </p>
             <p>
-              <strong>Mailing Address:</strong><br />
-              Social Circle, Inc.<br />
-              2001 W Gill Pl<br />
+              <strong>Mailing Address:</strong>
+              <br />
+              Social Circle, Inc.
+              <br />
+              2001 W Gill Pl
+              <br />
               Denver, CO 80223
             </p>
           </section>
@@ -1089,11 +1071,11 @@ export default function Terms() {
           <section className='terms-section'>
             <h2>16. ENTIRE AGREEMENT</h2>
             <p>
-              These Terms, together with our <a href='/privacy'>Privacy Policy</a> and any
-              supplemental terms for specific features (e.g., Business Account
-              Terms, Premium Subscription Terms), constitute the entire
-              agreement between you and Social Circle regarding your use of the
-              App.
+              These Terms, together with our{' '}
+              <a href='/privacy'>Privacy Policy</a> and any supplemental terms
+              for specific features (e.g., Business Account Terms, Premium
+              Subscription Terms), constitute the entire agreement between you
+              and Social Circle regarding your use of the App.
             </p>
             <p>
               <strong>These Terms supersede</strong> all prior agreements,
@@ -1104,12 +1086,12 @@ export default function Terms() {
           <section className='terms-section'>
             <h2>17. CHILDREN'S PRIVACY</h2>
             <p>
-              Social Circle is intended for users aged <strong>21 and older</strong>. We
-              do <strong>NOT</strong> knowingly collect personal information from anyone
-              under 21.
+              Social Circle is intended for users aged{' '}
+              <strong>18 and older</strong>. We do <strong>NOT</strong>{' '}
+              knowingly collect personal information from anyone under 18.
             </p>
             <p>
-              <strong>If we discover a user is under 21:</strong>
+              <strong>If we discover a user is under 18:</strong>
             </p>
             <ul>
               <li>We will immediately terminate their account</li>
@@ -1132,7 +1114,7 @@ export default function Terms() {
             </ul>
             <p>
               <strong>Parental Notice:</strong> If you are a parent or guardian
-              and believe your child under 21 has created an account, contact us
+              and believe your child under 18 has created an account, contact us
               immediately at privacy@findyourcircle.app with:
             </p>
             <ul>
@@ -1174,9 +1156,7 @@ export default function Terms() {
               <li>War, terrorism, or civil unrest</li>
               <li>Government actions or regulations</li>
               <li>Internet or telecommunications failures</li>
-              <li>
-                Third-party service outages (e.g., Firebase, Google Maps)
-              </li>
+              <li>Third-party service outages (e.g., Firebase, Google Maps)</li>
             </ul>
           </section>
 
@@ -1229,14 +1209,17 @@ export default function Terms() {
             </p>
             <p>
               <strong>
-                You also confirm that you are at least 21 years old and legally
+                You also confirm that you are at least 18 years old and legally
                 able to enter into this binding contract.
               </strong>
             </p>
           </section>
 
           <footer className='terms-footer'>
-            <p>Version 1.0 • Effective January 19, 2026 • Last Updated January 19, 2026</p>
+            <p>
+              Version 1.0 • Effective January 19, 2026 • Last Updated January
+              19, 2026
+            </p>
             <p>Review Cycle: Updated as needed, reviewed quarterly</p>
             <p className='terms-next-step'>
               📄 <strong>NEXT STEP:</strong> Review our{' '}
